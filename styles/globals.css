@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap");
 @import "embla.css";
-
+@import "roadmap.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -61,4 +61,10 @@ html {
   100% {
     background-position: 0% 50%;
   }
+
+
 }
+
+
+
+

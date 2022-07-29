@@ -56,7 +56,7 @@ const Header = () => {
               <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-blue-400 ">
                 Tarzan in the
               </span>
-             <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-green-400  "> Forest</span>
+             <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-green-400  ">Forest</span>
             </a>
           </Link>
 
@@ -72,6 +72,11 @@ const Header = () => {
               <li className="hover:text-white text-gray-200 text-semibold">
                 <Link href="#faq">
                   <a>Faq</a>
+                </Link>
+              </li>
+              <li className="hover:text-white text-gray-200 text-semibold">
+                <Link href="#roadmap">
+                  <a>Roadmap</a>
                 </Link>
               </li>
 

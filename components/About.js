@@ -2,7 +2,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div id="about" className="py-10 mt-16 mb-60 ">
-      <h1 className="mb-20 font-mono text-6xl font-semibold text-center text-gray-100 uppercase">
+      <h1 className="mb-100 font-mono text-6xl font-semibold text-center text-gray-100 uppercase">
         About The Project
       </h1>
       <div className="container relative max-w-6xl py-3 pt-16 mx-auto mt-20 sm:max-w-xl sm:mx-auto">
@@ -109,13 +109,13 @@ const About = () => {
               </div>
               <div className="pt-6 text-white leading-6 font-extralight sm:text-lg sm:leading-7">
                 <p>
-                  {`and for physical gifts`}
+                  {`and for physical rewards`}
                 </p>
                 <p className="mt-8">
                   <Link href="#main">
                     <a className="text-cyan-600 hover:text-cyan-700">
                       {" "}
-                      Let's mint
+                      Let&#39;s mint
                     </a>
                   </Link>
                 </p>

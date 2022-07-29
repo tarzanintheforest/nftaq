@@ -1,27 +1,34 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { PrevButton, NextButton } from "./EmblaCarouselButtons";
 import useEmblaCarousel from "embla-carousel-react";
-
+import Image from 'next/image'
 const nftList = [
   {
-    id: 1,
-    image: "/images/1.png",
+    
+   
+   id: 1,
+   image: "/images/1.png"
+  
   },
   {
     id: 2,
-    image: "/images/2.png",
+    image: "/images/nft1.png",
   },
   {
     id: 3,
-    image: "/images/5.png",
+    image: "/images/3.png",
   },
   {
     id: 4,
-    image: "/images/7.png",
+    image: "/images/19.png",
   },
   {
     id: 5,
-    image: "/images/9.png",
+    image: "/images/24.png",
+  },
+  {
+    id: 5,
+    image: "/images/2.png",
   },
 ];
 

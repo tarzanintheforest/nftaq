@@ -12,7 +12,7 @@ async function main() {
 
   await exampleNfts.deployed();
 
-  console.log("Example Nft's deployed to:", exampleNfts.address);
+  console.log("Example Nfts deployed to:", exampleNfts.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
@@ -23,4 +23,3 @@ main()
     console.error(error);
     process.exit(1);
   });
-  //0x0def831691c1216e96dab5739624a081aa721fcd

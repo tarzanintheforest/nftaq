@@ -1,11 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
+
 
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Gallery from "../components/Gallery";
 import Faq from "../components/Faq";
+import Roadmap from "../components/roadmap";
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Faq></Faq>
+      <Roadmap />
       <Gallery />
     </div>
   );
