@@ -28,6 +28,12 @@ module.exports = {
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
   },
+  paths: {
+    sources: './contracts',
+    tests: './test',
+    cache: './cache',
+    artifacts: './artifacts'
+  },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
   },

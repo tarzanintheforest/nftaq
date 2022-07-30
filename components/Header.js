@@ -12,7 +12,7 @@ const Header = () => {
     const walletResponse = await connectWallet();
     setWalletAddress(walletResponse.address);
     setStatus(walletResponse.status);
-  };
+  };// eslint-disable-next-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const prepare = async () => {
