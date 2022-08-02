@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useStatus } from "../context/statusContext";
-
+import "../utils/interact";
 import {
   getMaxMintAmount,
   getTotalSupply,

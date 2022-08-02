@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { PrevButton, NextButton } from "./EmblaCarouselButtons";
 import useEmblaCarousel from "embla-carousel-react";
-import Image from 'next/image';
+
 
 const nftList = [
   {

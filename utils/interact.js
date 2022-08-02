@@ -4,7 +4,8 @@ const web3 = createAlchemyWeb3(process.env.NEXT_PUBLIC_API_URL);
 const contract = require("../artifacts/contracts/ExampleNfts.sol/ExampleNfts.json");
 const contractAddress = "0x93BC326A2e215eAa81c6777D2f1d1A72e788C160";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
-
+import "../components/Hero";
+import "../pages/index";
 export const connectWallet = async () => {
   if (window.ethereum) {
     try {
