@@ -2,7 +2,7 @@ const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(process.env.NEXT_PUBLIC_API_URL);
 //-> npm install ---> npm run dev
 const contract = require("../artifacts/contracts/ExampleNfts.sol/ExampleNfts.json");
-const contractAddress = "0x93BC326A2e215eAa81c6777D2f1d1A72e788C160";
+const contractAddress = "0xdF0142C5417508a59258894273e304dbe5aFBD3c";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 import "../components/Hero";
 import "../pages/index";
