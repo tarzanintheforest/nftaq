@@ -10,12 +10,20 @@
   },
   "dependencies": {
     "@alch/alchemy-web3": "^1.1.8",
+    "@ethereumjs/block": "^3.6.3",
+    "@ethereumjs/blockchain": "^5.5.3",
+    "@ethereumjs/common": "^2.6.5",
+    "@ethereumjs/ethash": "^1.1.0",
+    "@ethereumjs/tx": "^3.5.2",
+    "@ethereumjs/util": "^8.0.0-beta.1",
+    "@ethereumjs/vm": "^5.9.3",
+    "@metamask/eth-sig-util": "^4.0.1",
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@openzeppelin/contracts": "^4.3.2",
     "chai": "^4.3.6",
     "dotenv": "^16.0.1",
-    "embla-carousel-react": "^6.0.1",
+    "embla-carousel-react": "^6.2.0",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.1",
     "hardhat": "^2.6.8",
@@ -25,10 +33,13 @@
   },
   "devDependencies": {
     "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@nomiclabs/hardhat-ganache": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
     "autoprefixer": "^10.4.0",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.3",
     "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "web3": "^1.7.5"
   }
 }
